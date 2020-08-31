@@ -1,1 +1,16 @@
-[{"title":"test","imageUrl":"http://celebshotattoos.com/wp-content/uploads/2018/11/Alissa-Violet-Sexy-Pictures-768x1024.jpg","price":"19.99","description":"Sexy Lady"}]
+[
+	{
+		"id": "12345",
+		"title": "test11111111111111111",
+		"imageUrl": "19.99",
+		"description": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781451696240/the-incomplete-book-of-running-9781451696240_hr.jpg",
+		"price": "Sexy Lady"
+	},
+	{
+		"title": "Another",
+		"imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Getijdenboek_Van_Reynegom_%2816e_eeuw%29%2C_KBS-FRB.jpg",
+		"price": "20",
+		"description": "Another product",
+		"id": "0.03859267981989012"
+	}
+]
