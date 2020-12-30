@@ -1,12 +1,11 @@
 {
 	"name": "shopejs",
 	"version": "1.0.0",
-	"description": "Complete MVC Project",
+	"description": "An MVC shop project with stripe payments",
 	"main": "app.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
 		"start": "node app.js",
-		"start:dev": "nodemon app.js"
+		"dev": "nodemon app.js"
 	},
 	"author": "Sindbadia",
 	"license": "MIT",
