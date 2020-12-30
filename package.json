@@ -3,6 +3,9 @@
 	"version": "1.0.0",
 	"description": "An MVC shop project with stripe payments",
 	"main": "app.js",
+	"engines": {
+		"node": "14.15.3"
+	},
 	"scripts": {
 		"start": "node app.js",
 		"dev": "nodemon app.js"
