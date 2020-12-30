@@ -5,7 +5,7 @@
 
 > An MVC shop project with stripe payments
 
-<!-- ### ✨ [Demo]() -->
+### ✨ [Demo](https://shopejs.herokuapp.com)
 
 ## Install
 
