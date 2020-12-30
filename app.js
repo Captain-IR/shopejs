@@ -2,7 +2,6 @@ require('dotenv').config()
 const path = require('path')
 const fs = require('fs')
 
-
 const express = require('express')
 const bodyParser = require('body-parser')
 const mongoose = require('mongoose')
@@ -15,12 +14,10 @@ const helmet = require('helmet')
 const compression = require('compression')
 const morgan = require('morgan')
 
-
 const errorController = require('./controllers/error')
 const User = require('./models/user')
 
-const MONGODB_URI = `mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASSWORD}@cluster0.fjthg.mongodb.net/${process.env.MONGO_DATABASE}?retryWrites=true&w=majority`
-
+const MONGODB_URI = `mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASSWORD}@node-cluster.znfsd.mongodb.net/${process.env.MONGO_DATABASE}?retryWrites=true&w=majority`
 
 const app = express()
 const store = new MongoDBStore({
@@ -76,7 +73,7 @@ app.use(
 		resave: false,
 		saveUninitialized: false,
 		store: store,
-	})
+	}),
 )
 
 app.use(csrfProtection)
